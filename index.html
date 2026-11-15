@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore the Wild Excursions Sighting Studio workflow, from media import to human-reviewed sharing.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>WE Sighting Studio — Interactive Workflow</title><link rel="stylesheet" href="workflow.css"><script src="workflow.js" defer></script></head>
+<body><main><div id="we-flow-console" aria-label="WE Sighting Studio workflow walkthrough">
+  
+  <section class="wf-shell">
+    <header class="wf-header"><div><div class="wf-brand">WILD EXCURSIONS / STUDIO</div><h2>A Sighting, Reviewed &amp; Ready.</h2><div class="wf-subtitle"><span class="wf-lamp"></span>Interactive workflow · illustration, not live processing</div></div></header>
+    <div class="wf-map" role="group" aria-label="Select a stage to inspect its role">
+      <svg class="wf-links" aria-hidden="true"><defs><marker id="wf-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M2 1L8 5 2 9" fill="none" stroke="var(--wf-line)" stroke-width="1.2"/></marker></defs><path data-link="0" marker-end="url(#wf-arrow)"/><path data-link="1" marker-end="url(#wf-arrow)"/><path data-link="2" marker-end="url(#wf-arrow)"/><path data-link="3" marker-end="url(#wf-arrow)"/><path data-link="4" marker-end="url(#wf-arrow)"/></svg>
+      <button class="wf-step" type="button" data-step="0" aria-pressed="false"><div class="wf-scene" aria-hidden="true"><div class="wf-media-pair"><span class="wf-media">PHOTO</span><span class="wf-media">VIDEO</span></div><span class="wf-text-line"></span><span class="wf-text-line short"></span></div><div><div class="wf-kicker">01 / INTAKE</div><strong class="wf-name">Import</strong><span class="wf-cue">WhatsApp share or picker</span></div></button>
+      <button class="wf-step" type="button" data-step="1" aria-pressed="false"><div class="wf-scene" aria-hidden="true"><div class="wf-crop"><div class="wf-crop-frame"></div></div></div><div><div class="wf-kicker">02 / MEDIA</div><strong class="wf-name">Crop &amp; Edit</strong><span class="wf-cue">Presets, trim &amp; Undo</span></div></button>
+      <button class="wf-step" type="button" data-step="2" aria-pressed="false"><div class="wf-scene" aria-hidden="true"><div class="wf-field">Rough details + facts</div><div class="wf-field wf-finished">Prepared description</div></div><div><div class="wf-kicker">03 / DESCRIPTION</div><strong class="wf-name">Prepare</strong><span class="wf-cue">Local rules or optional OCR</span></div></button>
+      <button class="wf-step" type="button" data-step="3" aria-pressed="true"><div class="wf-scene" aria-hidden="true"><div class="wf-seal">✓</div><div class="wf-confirm">A PERSON CONFIRMS</div></div><div><div class="wf-kicker">04 / HUMAN GATE</div><strong class="wf-name">Review &amp; Approve</strong><span class="wf-cue">Names, counts, place &amp; date</span></div></button>
+      <button class="wf-step" type="button" data-step="4" aria-pressed="false"><div class="wf-scene" aria-hidden="true"><div class="wf-poster"><span class="wf-poster-label">SIGHTINGS</span><span class="wf-poster-media"></span><span class="wf-text-line"></span><span class="wf-text-line short"></span></div></div><div><div class="wf-kicker">05 / ON PHONE</div><strong class="wf-name">Generate</strong><span class="wf-cue">Branded photo or video</span></div></button>
+      <button class="wf-step" type="button" data-step="5" aria-pressed="false"><div class="wf-scene" aria-hidden="true"><div class="wf-delivery primary">Share to Instagram ↗</div><div class="wf-delivery">Save to Gallery</div></div><div><div class="wf-kicker">06 / HANDOFF</div><strong class="wf-name">Save &amp; Share</strong><span class="wf-cue">A person completes posting</span></div></button>
+    </div>
+    <div class="wf-detail"><div class="wf-detail-label" id="wf-stage-label">HUMAN APPROVAL</div><p class="wf-detail-text" id="wf-stage-detail" aria-live="polite">Verify the sighting facts, edit if needed, then explicitly approve. The app never invents approval or publishes by itself.</p></div>
+    <footer class="wf-footer"><span>Local drafts · original media retained</span><span>Optional: Gemini suggestions / Telegram send</span></footer>
+  </section>
+  
+</div></main><noscript>This interactive walkthrough needs JavaScript. The six workflow stages remain visible above.</noscript></body></html>
